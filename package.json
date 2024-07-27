@@ -1,0 +1,31 @@
+{
+  "name": "app12",
+  "version": "1.0.0",
+  "description": "MEAN game API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://"
+  },
+  "keywords": [
+    "MEAN",
+    "Game",
+    "RESTfull",
+    "API",
+    "Express",
+    "Node"
+  ],
+  "author": "Yonatan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.0"
+  }
+}
