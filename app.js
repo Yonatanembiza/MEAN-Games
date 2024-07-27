@@ -10,11 +10,5 @@ const server= app.listen(process.env.PORT, function(){
     console.log(process.env.SERVER_START_MESSAGE, server.address().port);
 });
 
-// folder for static pages
+// folder for static pages and display it in the browser
 app.use(express.static(path.join(__dirname, "public")))
-
-// creat get request
-app.get("/", function(req, res){
-    console.log("Request is being served!");
-    res.status(200).sendFile("index.html")
-});
